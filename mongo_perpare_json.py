@@ -4,7 +4,6 @@ from bson.objectid import ObjectId
 ##########################################################
 # JSON helper
 ##########################################################
-#response json helper
 def prepare_response_json(in_json):
 	for k in in_json:
 		if type(in_json[k]) is dict:
